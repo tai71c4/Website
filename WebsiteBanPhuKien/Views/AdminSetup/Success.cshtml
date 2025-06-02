@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Thiết lập Admin thành công";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white text-center">
+                    <h4><i class="fas fa-check-circle me-2"></i>Thiết lập Admin thành công</h4>
+                </div>
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-user-shield text-success" style="font-size: 64px;"></i>
+                    </div>
+                    <h5 class="mb-3">Tài khoản Admin đã được tạo thành công!</h5>
+                    <p>Bạn đã đăng nhập với quyền Admin và có thể quản lý hệ thống.</p>
+                    <div class="mt-4">
+                        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-primary">
+                            <i class="fas fa-tachometer-alt me-2"></i>Đi đến trang quản trị
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

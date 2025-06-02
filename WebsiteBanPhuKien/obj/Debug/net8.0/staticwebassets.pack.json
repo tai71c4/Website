@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebsiteBanPhuKien.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebsiteBanPhuKien.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\banners\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\banners\\banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\banners\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-logo.png",
+      "PackagePath": "staticwebassets\\img\\momo-logo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-qr.png",
+      "PackagePath": "staticwebassets\\img\\momo-qr.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Aukey.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Aukey.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Baseus.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Baseus.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Belkin.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Belkin.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\JBL.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\JBL.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Nillkin.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Nillkin.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Ringke.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Ringke.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Spigen.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Spigen.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Tudia.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Tudia.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\UGreen.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\UGreen.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\apple.png",
+      "PackagePath": "staticwebassets\\img\\partners\\apple.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\findx5.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\findx5.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\iFan.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\iFan.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\logitech.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\logitech.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\oppo.png",
+      "PackagePath": "staticwebassets\\img\\partners\\oppo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\realme.png",
+      "PackagePath": "staticwebassets\\img\\partners\\realme.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\rezer.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\rezer.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\samsung.png",
+      "PackagePath": "staticwebassets\\img\\partners\\samsung.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\sony.png",
+      "PackagePath": "staticwebassets\\img\\partners\\sony.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\vivo.png",
+      "PackagePath": "staticwebassets\\img\\partners\\vivo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\zalopay-logo.png",
+      "PackagePath": "staticwebassets\\img\\zalopay-logo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\zalopay-qr.jpg",
+      "PackagePath": "staticwebassets\\img\\zalopay-qr.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp",
+      "PackagePath": "staticwebassets\\uploads\\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg",
+      "PackagePath": "staticwebassets\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp",
+      "PackagePath": "staticwebassets\\uploads\\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp",
+      "PackagePath": "staticwebassets\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png",
+      "PackagePath": "staticwebassets\\uploads\\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
+      "PackagePath": "staticwebassets\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp",
+      "PackagePath": "staticwebassets\\uploads\\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\c13e9eed-10a2-439b-9f68-dfce4f9ce1b0_oplungtrong 16.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c13e9eed-10a2-439b-9f68-dfce4f9ce1b0_oplungtrong 16.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png",
+      "PackagePath": "staticwebassets\\uploads\\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebsiteBanPhuKien.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebsiteBanPhuKien.props",
+      "PackagePath": "build\\WebsiteBanPhuKien.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebsiteBanPhuKien.props",
+      "PackagePath": "buildMultiTargeting\\WebsiteBanPhuKien.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebsiteBanPhuKien.props",
+      "PackagePath": "buildTransitive\\WebsiteBanPhuKien.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

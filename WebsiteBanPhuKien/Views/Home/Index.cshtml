@@ -1,0 +1,228 @@
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+                <h1>LUXURY ACCESSORIES</h1>
+                <p>Nâng tầm phong cách với bộ sưu tập phụ kiện cao cấp, đẳng cấp thượng lưu dành cho người tinh tế.</p>
+                <a href="@Url.Action("DanhSach", "Product")" class="btn btn-accent">KHÁM PHÁ NGAY</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container py-4">
+    <!-- Danh mục nổi bật -->
+    <div class="mb-5 text-center">
+        <h2 class="h3 mb-4 section-header d-inline-block">DANH MỤC NỔI BẬT</h2>
+        <div class="luxury-divider"></div>
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="row row-cols-2 row-cols-md-4 g-4">
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 1 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-mobile-alt fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">ỐP LƯNG CAO CẤP</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 2 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-shield-alt fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">KÍNH CƯỜNG LỰC</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 3 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-plug fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">CÁP SẠC PREMIUM</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 4 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-headphones fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">TAI NGHE CAO CẤP</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sản phẩm mới -->
+    <div class="mb-5 text-center">
+        <h2 class="h3 mb-4 section-header d-inline-block">BỘ SƯU TẬP MỚI NHẤT</h2>
+        <div class="luxury-divider"></div>
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            @if (ViewBag.SanPhamMoi != null)
+            {
+                foreach (var product in ViewBag.SanPhamMoi)
+                {
+                    <div class="col">
+                        <div class="card h-100 product-card">
+                            <div class="position-relative">
+                                <span class="product-badge">Mới</span>
+                                <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="product-link">
+                                    <img src="@(string.IsNullOrEmpty(product.HinhAnh) ? "/img/no-image.jpg" : product.HinhAnh)" 
+                                         class="card-img-top product-img" alt="@product.TenPhuKien" />
+                                </a>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="text-decoration-none text-dark">
+                                    <h5 class="card-title product-title">@product.TenPhuKien</h5>
+                                </a>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="product-price">@product.Gia.ToString("N0") đ</span>
+                                    </div>
+                                    <div class="d-grid">
+                                        @if (product.SoLuong > 0)
+                                        {
+                                            <a href="javascript:void(0)" onclick="themVaoGioHang(@product.MaPhuKien, 1)" class="btn btn-accent w-100">
+                                                THÊM VÀO GIỎ
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <button class="btn btn-secondary w-100" disabled>
+                                                HẾT HÀNG
+                                            </button>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        
+        <div class="mt-4">
+            <a href="@Url.Action("DanhSach", "Product")" class="btn btn-outline-primary">XEM TẤT CẢ SẢN PHẨM</a>
+        </div>
+    </div>
+
+    <!-- Thương hiệu -->
+    <div class="mb-5 text-center">
+        <h2 class="h3 mb-4 section-header d-inline-block">THƯƠNG HIỆU NỔI BẬT</h2>
+        <div class="luxury-divider"></div>
+        
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-2 col-4 mb-4">
+                <img src="/img/partners/apple.png" alt="Apple" class="img-fluid" style="max-height: 60px;">
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <img src="/img/partners/samsung.png" alt="Samsung" class="img-fluid" style="max-height: 60px;">
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <img src="/img/partners/sony.png" alt="Sony" class="img-fluid" style="max-height: 60px;">
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <img src="/img/partners/JBL.jpg" alt="JBL" class="img-fluid" style="max-height: 60px;">
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <img src="/img/partners/Belkin.jpg" alt="Belkin" class="img-fluid" style="max-height: 60px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Dịch vụ -->
+    <div class="mb-5 text-center">
+        <h2 class="h3 mb-4 section-header d-inline-block">DỊCH VỤ CAO CẤP</h2>
+        <div class="luxury-divider"></div>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="fas fa-shipping-fast fa-3x text-accent"></i>
+                        </div>
+                        <h4 class="card-title">GIAO HÀNG NHANH</h4>
+                        <p class="card-text">Giao hàng miễn phí trong nội thành và giao hàng toàn quốc chỉ trong 24-48 giờ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="fas fa-medal fa-3x text-accent"></i>
+                        </div>
+                        <h4 class="card-title">SẢN PHẨM CHÍNH HÃNG</h4>
+                        <p class="card-text">Cam kết 100% sản phẩm chính hãng với chế độ bảo hành toàn diện.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="fas fa-headset fa-3x text-accent"></i>
+                        </div>
+                        <h4 class="card-title">HỖ TRỢ 24/7</h4>
+                        <p class="card-text">Đội ngũ tư vấn viên chuyên nghiệp luôn sẵn sàng hỗ trợ bạn mọi lúc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function themVaoGioHang(maPhuKien, soLuong) {
+            $.ajax({
+                url: '/Cart/ThemVaoGioHang',
+                type: 'POST',
+                data: {
+                    maPhuKien: maPhuKien,
+                    soLuong: soLuong,
+                    __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                },
+                success: function(result) {
+                    // Hiển thị thông báo thành công
+                    alert('Đã thêm sản phẩm vào giỏ hàng');
+                    // Tải lại trang sau 1 giây
+                    setTimeout(function() {
+                        location.reload();
+                    }, 1000);
+                },
+                error: function(error) {
+                    alert('Có lỗi xảy ra khi thêm sản phẩm vào giỏ hàng');
+                }
+            });
+        }
+    </script>
+}
+
+@Html.AntiForgeryToken()

@@ -1,0 +1,102 @@
+@{
+    ViewData["Title"] = "Liên hệ";
+}
+
+<div class="container py-4">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Liên hệ</li>
+        </ol>
+    </nav>
+
+    <h1 class="mb-4">Liên hệ với chúng tôi</h1>
+
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Thông tin liên hệ</h5>
+                    
+                    <div class="mb-3">
+                        <h6><i class="fas fa-map-marker-alt me-2 text-primary"></i>Địa chỉ</h6>
+                        <p class="ms-4">123 Đường ABC, Quận XYZ, TP.HCM</p>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <h6><i class="fas fa-phone-alt me-2 text-primary"></i>Điện thoại</h6>
+                        <p class="ms-4">0123 456 789</p>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <h6><i class="fas fa-envelope me-2 text-primary"></i>Email</h6>
+                        <p class="ms-4">info@shopphukiem.com</p>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <h6><i class="fas fa-clock me-2 text-primary"></i>Giờ làm việc</h6>
+                        <p class="ms-4">Thứ 2 - Thứ 6: 8:00 - 17:30<br>Thứ 7: 8:00 - 12:00<br>Chủ nhật: Nghỉ</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h6>Kết nối với chúng tôi</h6>
+                        <div class="d-flex mt-2">
+                            <a href="#" class="btn btn-outline-primary me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-outline-danger me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-outline-danger me-2"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="btn btn-outline-dark"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Gửi tin nhắn cho chúng tôi</h5>
+                    
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Họ tên</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nhập họ tên của bạn">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Nhập email của bạn">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Số điện thoại</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại của bạn">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Chủ đề</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Nhập chủ đề">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Nội dung</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Nhập nội dung tin nhắn"></textarea>
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mt-5">
+        <h5 class="mb-4">Bản đồ</h5>
+        <div class="ratio ratio-21x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5177580567243!2d106.69891121471834!3d10.771594992324944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f40a3b49e59%3A0xa1bd14e483a602db!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7Egbmhpw6puIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1625647623232!5m2!1svi!2s" 
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>

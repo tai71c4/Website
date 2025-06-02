@@ -1,0 +1,147 @@
+@{
+    ViewData["Title"] = "Kiểm tra cơ sở dữ liệu";
+}
+
+<div class="container">
+    <h1>Kiểm tra cơ sở dữ liệu</h1>
+    
+    <div class="alert alert-info">
+        <p>Trang này được sử dụng để kiểm tra kết nối cơ sở dữ liệu và tạo dữ liệu mẫu.</p>
+    </div>
+    
+    <div class="row mb-4">
+        <div class="col">
+            <a href="@Url.Action("CreateSampleData")" class="btn btn-primary">Tạo dữ liệu mẫu</a>
+        </div>
+    </div>
+    
+    <div id="result" class="mt-4">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <span class="ms-2">Đang tải dữ liệu...</span>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Tải dữ liệu khi trang được tải
+            loadData();
+            
+            // Xử lý nút tạo dữ liệu mẫu
+            $('a[href*="CreateSampleData"]').click(function(e) {
+                e.preventDefault();
+                
+                $.ajax({
+                    url: $(this).attr('href'),
+                    type: 'GET',
+                    success: function(result) {
+                        if (result.success) {
+                            alert(result.message);
+                            loadData(); // Tải lại dữ liệu sau khi tạo mẫu
+                        } else {
+                            alert('Lỗi: ' + result.error);
+                            console.error(result.stackTrace);
+                        }
+                    },
+                    error: function() {
+                        alert('Có lỗi xảy ra khi tạo dữ liệu mẫu.');
+                    }
+                });
+            });
+        });
+        
+        function loadData() {
+            $.ajax({
+                url: '@Url.Action("Index")',
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    if (data.error) {
+                        $('#result').html('<div class="alert alert-danger">' + data.error + '</div>');
+                        console.error(data.stackTrace);
+                        return;
+                    }
+                    
+                    var html = '<div class="card mb-4">' +
+                        '<div class="card-header bg-primary text-white">Thống kê</div>' +
+                        '<div class="card-body">' +
+                        '<p><strong>Số lượng phụ kiện:</strong> ' + data.phuKienCount + '</p>' +
+                        '<p><strong>Số lượng loại phụ kiện:</strong> ' + data.loaiPhuKienCount + '</p>' +
+                        '<p><strong>Số lượng hãng sản xuất:</strong> ' + data.hangSanXuatCount + '</p>' +
+                        '</div></div>';
+                    
+                    // Hiển thị danh sách phụ kiện
+                    if (data.phuKiens && data.phuKiens.length > 0) {
+                        html += '<div class="card mb-4">' +
+                            '<div class="card-header bg-success text-white">Danh sách phụ kiện</div>' +
+                            '<div class="card-body">' +
+                            '<table class="table table-striped">' +
+                            '<thead><tr><th>ID</th><th>Tên</th><th>Giá</th><th>Loại ID</th><th>Hãng ID</th></tr></thead>' +
+                            '<tbody>';
+                        
+                        data.phuKiens.forEach(function(item) {
+                            html += '<tr>' +
+                                '<td>' + item.maPhuKien + '</td>' +
+                                '<td>' + item.tenPhuKien + '</td>' +
+                                '<td>' + item.gia.toLocaleString() + ' đ</td>' +
+                                '<td>' + item.maLoai + '</td>' +
+                                '<td>' + item.maHang + '</td>' +
+                                '</tr>';
+                        });
+                        
+                        html += '</tbody></table></div></div>';
+                    } else {
+                        html += '<div class="alert alert-warning">Không có phụ kiện nào trong cơ sở dữ liệu.</div>';
+                    }
+                    
+                    // Hiển thị danh sách loại phụ kiện
+                    if (data.loaiPhuKiens && data.loaiPhuKiens.length > 0) {
+                        html += '<div class="card mb-4">' +
+                            '<div class="card-header bg-info text-white">Danh sách loại phụ kiện</div>' +
+                            '<div class="card-body">' +
+                            '<table class="table table-striped">' +
+                            '<thead><tr><th>ID</th><th>Tên</th><th>Mô tả</th></tr></thead>' +
+                            '<tbody>';
+                        
+                        data.loaiPhuKiens.forEach(function(item) {
+                            html += '<tr>' +
+                                '<td>' + item.maLoai + '</td>' +
+                                '<td>' + item.tenLoai + '</td>' +
+                                '<td>' + (item.moTa || '') + '</td>' +
+                                '</tr>';
+                        });
+                        
+                        html += '</tbody></table></div></div>';
+                    }
+                    
+                    // Hiển thị danh sách hãng sản xuất
+                    if (data.hangSanXuats && data.hangSanXuats.length > 0) {
+                        html += '<div class="card mb-4">' +
+                            '<div class="card-header bg-warning text-dark">Danh sách hãng sản xuất</div>' +
+                            '<div class="card-body">' +
+                            '<table class="table table-striped">' +
+                            '<thead><tr><th>ID</th><th>Tên</th><th>Mô tả</th></tr></thead>' +
+                            '<tbody>';
+                        
+                        data.hangSanXuats.forEach(function(item) {
+                            html += '<tr>' +
+                                '<td>' + item.maHang + '</td>' +
+                                '<td>' + item.tenHang + '</td>' +
+                                '<td>' + (item.moTa || '') + '</td>' +
+                                '</tr>';
+                        });
+                        
+                        html += '</tbody></table></div></div>';
+                    }
+                    
+                    $('#result').html(html);
+                },
+                error: function() {
+                    $('#result').html('<div class="alert alert-danger">Có lỗi xảy ra khi tải dữ liệu.</div>');
+                }
+            });
+        }
+    </script>
+}

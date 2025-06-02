@@ -1,0 +1,892 @@
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.csproj.AssemblyReference.cache
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.GeneratedMSBuildEditorConfig.editorconfig
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.AssemblyInfoInputs.cache
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.AssemblyInfo.cs
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.csproj.CoreCompileInputs.cache
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.MvcApplicationPartsAssemblyInfo.cs
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.MvcApplicationPartsAssemblyInfo.cache
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.RazorAssemblyInfo.cache
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.RazorAssemblyInfo.cs
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\appsettings.Development.json
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\appsettings.json
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.staticwebassets.runtime.json
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.exe
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.deps.json
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.runtimeconfig.json
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.pdb
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Endpoints.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Results.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Identity.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Metadata.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.OutputCaching.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RateLimiting.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RequestDecompression.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Session.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Features.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.VisualBasic.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.VisualBasic.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Win32.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Win32.Registry.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\mscorlib.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\netstandard.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.AppContext.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Buffers.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.Concurrent.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.Immutable.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.NonGeneric.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.Specialized.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.Annotations.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.DataAnnotations.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.EventBasedAsync.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.TypeConverter.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Configuration.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Console.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Data.Common.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Data.DataSetExtensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Data.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Tools.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.TraceSource.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Tracing.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Drawing.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Drawing.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Dynamic.Runtime.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Formats.Asn1.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Formats.Tar.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Globalization.Calendars.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Globalization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Globalization.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.Brotli.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.FileSystem.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.ZipFile.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.AccessControl.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.DriveInfo.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Pipes.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.Expressions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.Parallel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.Queryable.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Memory.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Http.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Http.Json.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.HttpListener.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Mail.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.NameResolution.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.NetworkInformation.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Ping.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Quic.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Requests.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Security.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.ServicePoint.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Sockets.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebClient.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebHeaderCollection.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebProxy.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebSockets.Client.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebSockets.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Numerics.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Numerics.Vectors.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ObjectModel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.DispatchProxy.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Emit.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Emit.ILGeneration.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Emit.Lightweight.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Metadata.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.TypeExtensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Resources.Reader.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Resources.ResourceManager.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Resources.Writer.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Handles.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.InteropServices.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.InteropServices.JavaScript.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Intrinsics.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Loader.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Numerics.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Formatters.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Json.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Xml.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.AccessControl.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Claims.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Algorithms.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Cng.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Csp.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Encoding.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.OpenSsl.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Primitives.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.X509Certificates.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Xml.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Principal.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Principal.Windows.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.SecureString.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ServiceModel.Web.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ServiceProcess.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encoding.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Json.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Channels.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Overlapped.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.RateLimiting.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.Dataflow.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.Parallel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Thread.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.ThreadPool.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Timer.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Transactions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Transactions.Local.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ValueTuple.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Web.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Web.HttpUtility.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Windows.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.Linq.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.ReaderWriter.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.Serialization.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XDocument.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XmlDocument.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XmlSerializer.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XPath.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\refs\WindowsBase.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Azure.Core.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Azure.Identity.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Humanizer.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.CodeDom.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Memory.Data.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\WebPhuKien\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets.build.json
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets.development.json
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.WebsiteBanPhuKien.Microsoft.AspNetCore.StaticWebAssets.props
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.build.WebsiteBanPhuKien.props
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebsiteBanPhuKien.props
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebsiteBanPhuKien.props
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets.pack.json
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\scopedcss\bundle\WebsiteBanPhuKien.styles.css
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\scopedcss\projectbundle\WebsiteBanPhuKien.bundle.scp.css
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteB.7B613055.Up2Date
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.dll
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\refint\WebsiteBanPhuKien.dll
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.pdb
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.genruntimeconfig.cache
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\ref\WebsiteBanPhuKien.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\appsettings.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.staticwebassets.runtime.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.exe
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.deps.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.runtimeconfig.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\WebsiteBanPhuKien.pdb
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Endpoints.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Results.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.OutputCaching.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RateLimiting.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RequestDecompression.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Features.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.VisualBasic.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Win32.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\Microsoft.Win32.Registry.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\mscorlib.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\netstandard.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.AppContext.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Buffers.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.Concurrent.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.Immutable.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.NonGeneric.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Collections.Specialized.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.Annotations.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Configuration.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Console.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Data.Common.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Data.DataSetExtensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Data.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Tools.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.TraceSource.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Diagnostics.Tracing.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Drawing.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Drawing.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Dynamic.Runtime.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Formats.Asn1.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Formats.Tar.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Globalization.Calendars.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Globalization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Globalization.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.Brotli.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.FileSystem.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Compression.ZipFile.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.AccessControl.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.Pipes.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.Expressions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.Parallel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Linq.Queryable.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Memory.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Http.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Http.Json.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.HttpListener.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Mail.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.NameResolution.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.NetworkInformation.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Ping.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Quic.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Requests.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Security.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.ServicePoint.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.Sockets.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebClient.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebHeaderCollection.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebProxy.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebSockets.Client.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Net.WebSockets.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Numerics.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Numerics.Vectors.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ObjectModel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.DispatchProxy.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Emit.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Metadata.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Reflection.TypeExtensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Resources.Reader.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Resources.ResourceManager.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Resources.Writer.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Handles.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.InteropServices.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.InteropServices.JavaScript.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Intrinsics.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Loader.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Numerics.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Json.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.AccessControl.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Claims.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Cng.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Csp.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.OpenSsl.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Cryptography.Xml.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Principal.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.Principal.Windows.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Security.SecureString.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ServiceModel.Web.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ServiceProcess.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encoding.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.Json.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Channels.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Overlapped.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.RateLimiting.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Thread.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.ThreadPool.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Threading.Timer.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Transactions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Transactions.Local.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.ValueTuple.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Web.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Web.HttpUtility.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Windows.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.Linq.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.ReaderWriter.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.Serialization.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XDocument.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XmlDocument.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XmlSerializer.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XPath.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\refs\WindowsBase.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Humanizer.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.csproj.AssemblyReference.cache
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.AssemblyInfoInputs.cache
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.AssemblyInfo.cs
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.csproj.CoreCompileInputs.cache
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.RazorAssemblyInfo.cache
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.RazorAssemblyInfo.cs
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.sourcelink.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.WebsiteBanPhuKien.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.build.WebsiteBanPhuKien.props
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebsiteBanPhuKien.props
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebsiteBanPhuKien.props
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\scopedcss\bundle\WebsiteBanPhuKien.styles.css
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\scopedcss\projectbundle\WebsiteBanPhuKien.bundle.scp.css
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteB.7B613055.Up2Date
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\refint\WebsiteBanPhuKien.dll
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.pdb
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.genruntimeconfig.cache
+C:\Users\nhant\OneDrive\Tài liệu\GitHub\-n-1\WebsiteBanPhuKien\obj\Debug\net8.0\ref\WebsiteBanPhuKien.dll
+C:\WebPhuKien\WebsiteBanPhuKien\obj\Debug\net8.0\WebsiteBanPhuKien.sourcelink.json

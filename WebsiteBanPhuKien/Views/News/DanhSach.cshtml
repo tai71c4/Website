@@ -1,0 +1,22 @@
+@model List<WebsiteBanPhuKien.Models.TinTuc>
+@{
+    ViewData["Title"] = "Danh sách tin tức";
+}
+
+<h1>Danh sách tin tức</h1>
+
+<div class="row">
+    @foreach (var news in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@news.HinhAnh" class="card-img-top" alt="@news.TieuDe" style="height: 200px; object-fit: cover;" />
+                <div class="card-body">
+                    <h5 class="card-title">@news.TieuDe</h5>
+                    <p class="card-text">@news.NoiDung.Substring(0, Math.Min(news.NoiDung.Length, 100))...</p>
+                    <a href="@Url.Action("ChiTiet", "News", new { id = news.MaTin })" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

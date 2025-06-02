@@ -1,0 +1,139 @@
+@{
+    ViewData["Title"] = "Bảng điều khiển";
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-title">Tổng người dùng</div>
+            <div class="stat-value">@ViewBag.TotalUsers</div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-box-open"></i>
+            </div>
+            <div class="stat-title">Tổng sản phẩm</div>
+            <div class="stat-value">@ViewBag.TotalProducts</div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="stat-title">Tổng đơn hàng</div>
+            <div class="stat-value">@ViewBag.TotalOrders</div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="stat-title">Doanh thu</div>
+            <div class="stat-value">@(ViewBag.TotalRevenue != null ? ViewBag.TotalRevenue.ToString("N0") + " đ" : "0 đ")</div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Đơn hàng gần đây</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Mã đơn</th>
+                                <th>Khách hàng</th>
+                                <th>Ngày đặt</th>
+                                <th>Tổng tiền</th>
+                                <th>Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (ViewBag.RecentOrders != null)
+                            {
+                                foreach (var order in ViewBag.RecentOrders)
+                                {
+                                    <tr>
+                                        <td>@order.MaDon</td>
+                                        <td>@(order.User?.HoTen ?? "Không có")</td>
+                                        <td>@order.NgayDat.ToString("dd/MM/yyyy")</td>
+                                        <td>@(order.TongTien.ToString("N0")) đ</td>
+                                        <td>
+                                            <span class="badge @(order.TrangThai == "Đã giao" ? "bg-success" : 
+                                                                order.TrangThai == "Đang giao" ? "bg-primary" : 
+                                                                order.TrangThai == "Đã hủy" ? "bg-danger" : "bg-warning")">
+                                                @order.TrangThai
+                                            </span>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center">Không có đơn hàng nào</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-3">
+                    <a asp-controller="Admin" asp-action="QuanLyDonHang" class="btn btn-primary">
+                        Xem tất cả đơn hàng
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Quản lý nhanh</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <a asp-controller="Admin" asp-action="QuanLySanPham" class="btn btn-accent w-100 p-3">
+                            <i class="fas fa-box-open fa-2x mb-2"></i><br>
+                            Quản lý sản phẩm
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <a asp-controller="Admin" asp-action="QuanLyDonHang" class="btn btn-accent w-100 p-3">
+                            <i class="fas fa-shopping-cart fa-2x mb-2"></i><br>
+                            Quản lý đơn hàng
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <a asp-controller="Admin" asp-action="QuanLyNguoiDung" class="btn btn-accent w-100 p-3">
+                            <i class="fas fa-users fa-2x mb-2"></i><br>
+                            Quản lý người dùng
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <a asp-controller="Admin" asp-action="QuanLyTinTuc" class="btn btn-accent w-100 p-3">
+                            <i class="fas fa-newspaper fa-2x mb-2"></i><br>
+                            Quản lý tin tức
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

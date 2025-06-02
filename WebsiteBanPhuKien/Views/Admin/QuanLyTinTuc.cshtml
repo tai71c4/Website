@@ -1,0 +1,322 @@
+@model IEnumerable<WebsiteBanPhuKien.Models.TinTuc>
+@{
+    ViewData["Title"] = "Quản lý tin tức";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Quản lý tin tức</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center">
+            <h6 class="m-0 font-weight-bold text-primary">Danh sách tin tức</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#themTinTucModal">
+                <i class="fas fa-plus me-2"></i>Thêm tin tức
+            </button>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã tin</th>
+                            <th>Hình ảnh</th>
+                            <th>Tiêu đề</th>
+                            <th>Chủ đề</th>
+                            <th>Ngày đăng</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.MaTin</td>
+                                    <td>
+                                        <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" 
+                                             alt="@item.TieuDe" style="width: 50px; height: 50px; object-fit: cover;" />
+                                    </td>
+                                    <td>@item.TieuDe</td>
+                                    <td>@(item.ChuDe?.TenChuDe ?? "Không có")</td>
+                                    <td>@item.NgayDang.ToString("dd/MM/yyyy HH:mm")</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-info edit-btn" data-id="@item.MaTin">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger delete-btn" data-id="@item.MaTin" 
+                                                data-title="@item.TieuDe">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Thêm tin tức -->
+<div class="modal fade" id="themTinTucModal" tabindex="-1" aria-labelledby="themTinTucModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form asp-action="ThemTinTuc" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="themTinTucModalLabel">Thêm tin tức mới</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="TieuDe" class="form-label">Tiêu đề</label>
+                        <input type="text" class="form-control" id="TieuDe" name="TieuDe" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="MaChuDe" class="form-label">Chủ đề</label>
+                        <select class="form-select" id="MaChuDe" name="MaChuDe" required>
+                            <option value="">-- Chọn chủ đề --</option>
+                            @if (ViewBag.ChuDeTinTucs != null)
+                            {
+                                foreach (var chuDe in ViewBag.ChuDeTinTucs)
+                                {
+                                    <option value="@chuDe.MaChuDe">@chuDe.TenChuDe</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ImageFile" class="form-label">Hình ảnh</label>
+                        <input type="file" class="form-control" id="ImageFile" name="ImageFile" accept="image/*">
+                        <input type="hidden" id="HinhAnh" name="HinhAnh">
+                        <div id="imagePreview" class="mt-2"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="NoiDung" class="form-label">Nội dung</label>
+                        <textarea class="form-control" id="NoiDung" name="NoiDung" rows="10" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sửa tin tức -->
+<div class="modal fade" id="suaTinTucModal" tabindex="-1" aria-labelledby="suaTinTucModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form asp-action="SuaTinTuc" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="suaTinTucModalLabel">Sửa tin tức</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="editMaTin" name="MaTin">
+                    <div class="mb-3">
+                        <label for="editTieuDe" class="form-label">Tiêu đề</label>
+                        <input type="text" class="form-control" id="editTieuDe" name="TieuDe" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editMaChuDe" class="form-label">Chủ đề</label>
+                        <select class="form-select" id="editMaChuDe" name="MaChuDe" required>
+                            <option value="">-- Chọn chủ đề --</option>
+                            @if (ViewBag.ChuDeTinTucs != null)
+                            {
+                                foreach (var chuDe in ViewBag.ChuDeTinTucs)
+                                {
+                                    <option value="@chuDe.MaChuDe">@chuDe.TenChuDe</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editImageFile" class="form-label">Hình ảnh</label>
+                        <input type="file" class="form-control" id="editImageFile" name="ImageFile" accept="image/*">
+                        <input type="hidden" id="editHinhAnh" name="HinhAnh">
+                        <div id="editImagePreview" class="mt-2"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editNoiDung" class="form-label">Nội dung</label>
+                        <textarea class="form-control" id="editNoiDung" name="NoiDung" rows="10" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Xóa tin tức -->
+<div class="modal fade" id="xoaTinTucModal" tabindex="-1" aria-labelledby="xoaTinTucModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="XoaTinTuc" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="xoaTinTucModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="deleteMaTin" name="id">
+                    <p>Bạn có chắc chắn muốn xóa tin tức <span id="deleteTieuDe" class="fw-bold"></span>?</p>
+                    <p class="text-danger">Hành động này không thể hoàn tác.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Khởi tạo trình soạn thảo
+            if (typeof ClassicEditor !== 'undefined') {
+                ClassicEditor
+                    .create(document.querySelector('#NoiDung'))
+                    .catch(error => {
+                        console.error(error);
+                    });
+                    
+                ClassicEditor
+                    .create(document.querySelector('#editNoiDung'))
+                    .catch(error => {
+                        console.error(error);
+                    });
+            }
+            
+            // Xử lý tải lên hình ảnh cho form thêm mới
+            $('#ImageFile').change(function() {
+                var file = this.files[0];
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        $('#imagePreview').html('<img src="' + e.target.result + '" class="img-thumbnail" style="height: 100px;">');
+                    }
+                    reader.readAsDataURL(file);
+                    
+                    var formData = new FormData();
+                    formData.append('file', file);
+                    
+                    $.ajax({
+                        url: '/Upload/UploadImage',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        success: function(result) {
+                            if (result.success) {
+                                $('#HinhAnh').val(result.filePath);
+                            } else {
+                                alert('Lỗi: ' + result.message);
+                            }
+                        },
+                        error: function() {
+                            alert('Có lỗi xảy ra khi tải lên hình ảnh.');
+                        }
+                    });
+                }
+            });
+            
+            // Xử lý tải lên hình ảnh cho form sửa
+            $('#editImageFile').change(function() {
+                var file = this.files[0];
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        $('#editImagePreview').html('<img src="' + e.target.result + '" class="img-thumbnail" style="height: 100px;">');
+                    }
+                    reader.readAsDataURL(file);
+                    
+                    var formData = new FormData();
+                    formData.append('file', file);
+                    
+                    $.ajax({
+                        url: '/Upload/UploadImage',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        success: function(result) {
+                            if (result.success) {
+                                $('#editHinhAnh').val(result.filePath);
+                            } else {
+                                alert('Lỗi: ' + result.message);
+                            }
+                        },
+                        error: function() {
+                            alert('Có lỗi xảy ra khi tải lên hình ảnh.');
+                        }
+                    });
+                }
+            });
+            
+            // Xử lý nút sửa
+            $('.edit-btn').click(function() {
+                var id = $(this).data('id');
+                
+                // Gọi API để lấy thông tin tin tức
+                $.ajax({
+                    url: '/Admin/GetTinTuc/' + id,
+                    type: 'GET',
+                    success: function(data) {
+                        $('#editMaTin').val(data.maTin);
+                        $('#editTieuDe').val(data.tieuDe);
+                        $('#editMaChuDe').val(data.maChuDe);
+                        $('#editHinhAnh').val(data.hinhAnh);
+                        $('#editNoiDung').val(data.noiDung);
+                        
+                        // Hiển thị hình ảnh hiện tại
+                        if (data.hinhAnh) {
+                            $('#editImagePreview').html('<img src="' + data.hinhAnh + '" class="img-thumbnail" style="height: 100px;">');
+                        } else {
+                            $('#editImagePreview').empty();
+                        }
+                        
+                        $('#suaTinTucModal').modal('show');
+                    },
+                    error: function() {
+                        alert('Không thể lấy thông tin tin tức');
+                    }
+                });
+            });
+            
+            // Xử lý nút xóa
+            $('.delete-btn').click(function() {
+                var id = $(this).data('id');
+                var title = $(this).data('title');
+                
+                $('#deleteMaTin').val(id);
+                $('#deleteTieuDe').text(title);
+                $('#xoaTinTucModal').modal('show');
+            });
+            
+            // Khởi tạo DataTable
+            $('#dataTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/vi.json'
+                },
+                order: [[4, 'desc']] // Sắp xếp theo ngày đăng, mới nhất lên đầu
+            });
+        });
+    </script>
+}

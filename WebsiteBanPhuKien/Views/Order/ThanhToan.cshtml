@@ -1,0 +1,278 @@
+@model WebsiteBanPhuKien.Models.ViewModels.ThanhToanViewModel
+@{
+    ViewData["Title"] = "Thanh toán";
+}
+
+<div class="container py-4">
+    <h1 class="mb-4">Thanh toán đơn hàng</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Thông tin đơn hàng</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.GioHangItems != null && Model.GioHangItems.Any())
+                    {
+                        <!-- Hiển thị thông tin từ giỏ hàng -->
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Sản phẩm</th>
+                                        <th class="text-center">Đơn giá</th>
+                                        <th class="text-center">Số lượng</th>
+                                        <th class="text-end">Thành tiền</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.GioHangItems)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" 
+                                                         alt="@item.TenPhuKien" class="img-thumbnail me-3" style="width: 60px; height: 60px; object-fit: contain;">
+                                                    <div>
+                                                        <h6 class="mb-0">@item.TenPhuKien</h6>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center align-middle">@item.Gia.ToString("N0") đ</td>
+                                            <td class="text-center align-middle">@item.SoLuong</td>
+                                            <td class="text-end align-middle fw-bold">@item.ThanhTien.ToString("N0") đ</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else if (Model.SanPham != null)
+                    {
+                        <!-- Hiển thị thông tin từ mua ngay -->
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <img src="@(string.IsNullOrEmpty(Model.SanPham.HinhAnh) ? "/img/no-image.jpg" : Model.SanPham.HinhAnh)" 
+                                     class="img-fluid rounded" alt="@Model.SanPham.TenPhuKien">
+                            </div>
+                            <div class="col-md-9">
+                                <h5>@Model.SanPham.TenPhuKien</h5>
+                                <p class="mb-1">Số lượng: @Model.SoLuong</p>
+                                <p class="mb-1">Đơn giá: @Model.SanPham.Gia.ToString("N0") đ</p>
+                                <p class="fw-bold text-danger">Thành tiền: @((Model.SanPham.Gia * Model.SoLuong).ToString("N0")) đ</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <form asp-action="XacNhanThanhToan" method="post">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Thông tin giao hàng</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="TenNguoiNhan" class="form-label">Họ tên người nhận</label>
+                            <input asp-for="TenNguoiNhan" class="form-control" required />
+                            <span asp-validation-for="TenNguoiNhan" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="SoDienThoai" class="form-label">Số điện thoại</label>
+                            <input asp-for="SoDienThoai" class="form-control" required />
+                            <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="DiaChiGiao" class="form-label">Địa chỉ giao hàng</label>
+                            <textarea asp-for="DiaChiGiao" class="form-control" rows="3" required></textarea>
+                            <span asp-validation-for="DiaChiGiao" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="GhiChu" class="form-label">Ghi chú</label>
+                            <textarea asp-for="GhiChu" class="form-control" rows="2"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Phương thức thanh toán</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" asp-for="PhuongThucThanhToan" id="momo" value="MoMo" checked>
+                            <label class="form-check-label" for="momo">
+                                <img src="/img/momo-logo.png" alt="MoMo" height="30" class="me-2">
+                                Thanh toán qua MoMo
+                            </label>
+                            <div class="mt-2 ms-4 payment-details" id="momo-details">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-4 text-center">
+                                                <img src="/img/momo-qr.png" alt="MoMo QR" class="img-fluid" style="max-height: 200px;">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>Quét mã QR bằng ứng dụng MoMo để thanh toán</p>
+                                                <p class="mb-1"><strong>Số tiền:</strong> 
+                                                    @if (Model.GioHangItems != null && Model.GioHangItems.Any())
+                                                    {
+                                                        @Model.GioHangItems.Sum(i => i.ThanhTien).ToString("N0")
+                                                    }
+                                                    else if (Model.SanPham != null)
+                                                    {
+                                                        @((Model.SanPham.Gia * Model.SoLuong).ToString("N0"))
+                                                    } đ
+                                                </p>
+                                                <p class="mb-1"><strong>Nội dung chuyển khoản:</strong> Thanh toan don hang</p>
+                                                <p class="text-danger">Vui lòng chụp màn hình giao dịch thành công và gửi cho chúng tôi qua email hoặc số điện thoại.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" asp-for="PhuongThucThanhToan" id="zalopay" value="ZaloPay">
+                            <label class="form-check-label" for="zalopay">
+                                <img src="/img/zalopay-logo.png" alt="ZaloPay" height="30" class="me-2">
+                                Thanh toán qua ZaloPay
+                            </label>
+                            <div class="mt-2 ms-4 payment-details d-none" id="zalopay-details">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-4 text-center">
+                                                <img src="/img/zalopay-qr.jpg" alt="ZaloPay QR" class="img-fluid" style="max-height: 200px;">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>Quét mã QR bằng ứng dụng ZaloPay để thanh toán</p>
+                                                <p class="mb-1"><strong>Số tiền:</strong> 
+                                                    @if (Model.GioHangItems != null && Model.GioHangItems.Any())
+                                                    {
+                                                        @Model.GioHangItems.Sum(i => i.ThanhTien).ToString("N0")
+                                                    }
+                                                    else if (Model.SanPham != null)
+                                                    {
+                                                        @((Model.SanPham.Gia * Model.SoLuong).ToString("N0"))
+                                                    } đ
+                                                </p>
+                                                <p class="mb-1"><strong>Nội dung chuyển khoản:</strong> Thanh toan don hang</p>
+                                                <p class="text-danger">Vui lòng chụp màn hình giao dịch thành công và gửi cho chúng tôi qua email hoặc số điện thoại.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="PhuongThucThanhToan" id="banking" value="Banking">
+                            <label class="form-check-label" for="banking">
+                                <i class="fas fa-university me-2"></i>
+                                Chuyển khoản ngân hàng
+                            </label>
+                            <div class="mt-2 ms-4 payment-details d-none" id="banking-details">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="mb-1"><strong>Ngân hàng:</strong> Vietcombank</p>
+                                        <p class="mb-1"><strong>Số tài khoản:</strong> 1234567890</p>
+                                        <p class="mb-1"><strong>Chủ tài khoản:</strong> CÔNG TY TNHH PHỤ KIỆN ĐIỆN THOẠI</p>
+                                        <p class="mb-1"><strong>Số tiền:</strong> 
+                                            @if (Model.GioHangItems != null && Model.GioHangItems.Any())
+                                            {
+                                                @Model.GioHangItems.Sum(i => i.ThanhTien).ToString("N0")
+                                            }
+                                            else if (Model.SanPham != null)
+                                            {
+                                                @((Model.SanPham.Gia * Model.SoLuong).ToString("N0"))
+                                            } đ
+                                        </p>
+                                        <p class="mb-1"><strong>Nội dung chuyển khoản:</strong> Thanh toan don hang</p>
+                                        <p class="text-danger">Vui lòng chụp màn hình giao dịch thành công và gửi cho chúng tôi qua email hoặc số điện thoại.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Tổng thanh toán</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Tổng tiền hàng:</span>
+                            <span>
+                                @if (Model.GioHangItems != null && Model.GioHangItems.Any())
+                                {
+                                    @Model.GioHangItems.Sum(i => i.ThanhTien).ToString("N0")
+                                }
+                                else if (Model.SanPham != null)
+                                {
+                                    @((Model.SanPham.Gia * Model.SoLuong).ToString("N0"))
+                                } đ
+                            </span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Phí vận chuyển:</span>
+                            <span>0 đ</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between fw-bold">
+                            <span>Tổng thanh toán:</span>
+                            <span class="text-danger h5">
+                                @if (Model.GioHangItems != null && Model.GioHangItems.Any())
+                                {
+                                    @Model.GioHangItems.Sum(i => i.ThanhTien).ToString("N0")
+                                }
+                                else if (Model.SanPham != null)
+                                {
+                                    @((Model.SanPham.Gia * Model.SoLuong).ToString("N0"))
+                                } đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fas fa-check-circle me-2"></i>Xác nhận đặt hàng
+                    </button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">Hướng dẫn thanh toán</h5>
+                </div>
+                <div class="card-body">
+                    <p><i class="fas fa-info-circle me-2 text-info"></i>Vui lòng kiểm tra thông tin đơn hàng và thông tin giao hàng trước khi xác nhận.</p>
+                    <p><i class="fas fa-info-circle me-2 text-info"></i>Sau khi thanh toán, đơn hàng sẽ được xử lý và giao trong vòng 2-3 ngày làm việc.</p>
+                    <p><i class="fas fa-info-circle me-2 text-info"></i>Nếu có bất kỳ thắc mắc nào, vui lòng liên hệ hotline: <strong>0915838301</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Xử lý hiển thị chi tiết phương thức thanh toán
+            $('input[name="PhuongThucThanhToan"]').change(function() {
+                // Ẩn tất cả các chi tiết
+                $('.payment-details').addClass('d-none');
+                
+                // Hiển thị chi tiết của phương thức được chọn
+                var selectedMethod = $(this).attr('id');
+                $('#' + selectedMethod + '-details').removeClass('d-none');
+            });
+        });
+    </script>
+}

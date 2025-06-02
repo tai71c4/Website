@@ -1,0 +1,17 @@
+@model IEnumerable<WebsiteBanPhuKien.Models.LoaiPhuKien>
+
+@foreach (var loai in Model)
+{
+    <li>
+        <a class="dropdown-item" asp-controller="Product" asp-action="TheoLoai" asp-route-id="@loai.MaLoai">
+            @loai.TenLoai
+        </a>
+    </li>
+}
+
+<li><hr class="dropdown-divider"></li>
+<li>
+    <a class="dropdown-item" asp-controller="Product" asp-action="DanhSach">
+        <i class="fas fa-list me-2"></i>Tất cả sản phẩm
+    </a>
+</li>

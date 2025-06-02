@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Tài khoản Admin đã tồn tại";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-dark text-center">
+                    <h4><i class="fas fa-exclamation-triangle me-2"></i>Tài khoản Admin đã tồn tại</h4>
+                </div>
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-user-lock text-warning" style="font-size: 64px;"></i>
+                    </div>
+                    <h5 class="mb-3">Không thể tạo tài khoản Admin mới!</h5>
+                    <p>Hệ thống đã có tài khoản Admin. Vui lòng liên hệ với quản trị viên hiện tại nếu bạn cần quyền truy cập.</p>
+                    <div class="mt-4">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+                            <i class="fas fa-home me-2"></i>Về trang chủ
+                        </a>
+                        <a asp-controller="Account" asp-action="DangNhap" class="btn btn-outline-primary ms-2">
+                            <i class="fas fa-sign-in-alt me-2"></i>Đăng nhập
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

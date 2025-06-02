@@ -1,0 +1,124 @@
+@model WebsiteBanPhuKien.Models.ViewModels.DonHangViewModel
+@{
+    ViewData["Title"] = "Đặt hàng thành công";
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <div class="mb-4">
+            <i class="fas fa-check-circle text-success" style="font-size: 80px;"></i>
+        </div>
+        <h1 class="mb-3">Đặt hàng thành công!</h1>
+        <p class="lead">Cảm ơn bạn đã mua hàng tại cửa hàng chúng tôi.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Thông tin đơn hàng #@Model.DonHang.MaDon</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p><strong>Ngày đặt hàng:</strong> @Model.DonHang.NgayDat.ToString("dd/MM/yyyy HH:mm")</p>
+                            <p><strong>Trạng thái:</strong> @Model.DonHang.TrangThai</p>
+                            <p><strong>Phương thức thanh toán:</strong> @Model.PhuongThucThanhToan</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Người nhận:</strong> @Model.TenNguoiNhan</p>
+                            <p><strong>Số điện thoại:</strong> @Model.SoDienThoai</p>
+                            <p><strong>Địa chỉ:</strong> @Model.DiaChiGiao</p>
+                        </div>
+                    </div>
+
+                    <h6 class="mb-3">Chi tiết đơn hàng</h6>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th class="text-center">Số lượng</th>
+                                    <th class="text-end">Đơn giá</th>
+                                    <th class="text-end">Thành tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.DonHang.ChiTietDonHangs)
+                                {
+                                    <tr>
+                                        <td>@item.PhuKien.TenPhuKien</td>
+                                        <td class="text-center">@item.SoLuong</td>
+                                        <td class="text-end">@item.DonGia.ToString("N0") đ</td>
+                                        <td class="text-end">@((item.DonGia * item.SoLuong).ToString("N0")) đ</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="text-end"><strong>Tổng cộng:</strong></td>
+                                    <td class="text-end"><strong>@Model.DonHang.TongTien.ToString("N0") đ</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">Thông tin thanh toán</h5>
+                </div>
+                <div class="card-body">
+                    <p>Vui lòng hoàn tất thanh toán (nếu chưa) để đơn hàng được xử lý nhanh chóng.</p>
+                    
+                    @if (Model.PhuongThucThanhToan == "MoMo")
+                    {
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="/img/momo-qr.png" alt="MoMo QR" class="img-fluid" style="max-height: 200px;">
+                            </div>
+                            <div class="col-md-8">
+                                <p>Quét mã QR bằng ứng dụng MoMo để thanh toán</p>
+                                <p class="mb-1"><strong>Số tiền:</strong> @Model.DonHang.TongTien.ToString("N0") đ</p>
+                                <p class="mb-1"><strong>Nội dung chuyển khoản:</strong> Thanh toan don hang #@Model.DonHang.MaDon</p>
+                            </div>
+                        </div>
+                    }
+                    else if (Model.PhuongThucThanhToan == "ZaloPay")
+                    {
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="/img/zalopay-qr.png" alt="ZaloPay QR" class="img-fluid" style="max-height: 200px;">
+                            </div>
+                            <div class="col-md-8">
+                                <p>Quét mã QR bằng ứng dụng ZaloPay để thanh toán</p>
+                                <p class="mb-1"><strong>Số tiền:</strong> @Model.DonHang.TongTien.ToString("N0") đ</p>
+                                <p class="mb-1"><strong>Nội dung chuyển khoản:</strong> Thanh toan don hang #@Model.DonHang.MaDon</p>
+                            </div>
+                        </div>
+                    }
+                    else if (Model.PhuongThucThanhToan == "Banking")
+                    {
+                        <div>
+                            <p class="mb-1"><strong>Ngân hàng:</strong> Vietcombank</p>
+                            <p class="mb-1"><strong>Số tài khoản:</strong> 1234567890</p>
+                            <p class="mb-1"><strong>Chủ tài khoản:</strong> CÔNG TY TNHH PHỤ KIỆN ĐIỆN THOẠI</p>
+                            <p class="mb-1"><strong>Số tiền:</strong> @Model.DonHang.TongTien.ToString("N0") đ</p>
+                            <p class="mb-1"><strong>Nội dung chuyển khoản:</strong> Thanh toan don hang #@Model.DonHang.MaDon</p>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="@Url.Action("LichSu", "Order")" class="btn btn-primary me-2">
+                    <i class="fas fa-history me-2"></i>Xem lịch sử đơn hàng
+                </a>
+                <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary">
+                    <i class="fas fa-home me-2"></i>Về trang chủ
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

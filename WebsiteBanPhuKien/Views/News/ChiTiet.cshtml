@@ -1,0 +1,14 @@
+@model WebsiteBanPhuKien.Models.ViewModels.TinTucViewModel
+@{
+    ViewData["Title"] = "Chi tiết tin tức";
+}
+
+<h1>@Model.TinTuc.TieuDe</h1>
+<p><strong>Ngày đăng:</strong> @Model.TinTuc.NgayDang.ToString("dd/MM/yyyy")</p>
+<p>@Model.TinTuc.NoiDung</p>
+
+<h2>Bình luận</h2>
+@foreach (var comment in Model.BinhLuans)
+{
+    <p><strong>@comment.User.HoTen:</strong> @comment.NoiDung</p>
+}

@@ -1,0 +1,248 @@
+@model IEnumerable<WebsiteBanPhuKien.Models.PhuKien>
+@{
+    ViewData["Title"] = "Danh Sách Phụ Kiện";
+}
+
+<div class="container py-4">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <!-- Sidebar Filters -->
+        <div class="col-lg-3 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Bộ lọc</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="DanhSach" method="get" id="filterForm">
+                        <div class="mb-4">
+                            <h6 class="fw-bold mb-3">Loại phụ kiện</h6>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input filter-check" type="radio" name="loaiId" id="loaiAll" value="" @(ViewBag.LoaiId == null ? "checked" : "")>
+                                <label class="form-check-label" for="loaiAll">
+                                    Tất cả
+                                </label>
+                            </div>
+                            @if (ViewBag.LoaiPhuKiens != null)
+                            {
+                                foreach (var loai in ViewBag.LoaiPhuKiens)
+                                {
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input filter-check" type="radio" name="loaiId" id="loai_@loai.MaLoai" 
+                                               value="@loai.MaLoai" @(ViewBag.LoaiId != null && ViewBag.LoaiId == loai.MaLoai ? "checked" : "")>
+                                        <label class="form-check-label" for="loai_@loai.MaLoai">
+                                            @loai.TenLoai
+                                        </label>
+                                    </div>
+                                }
+                            }
+                        </div>
+
+                        <div class="mb-4">
+                            <h6 class="fw-bold mb-3">Hãng sản xuất</h6>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input filter-check" type="radio" name="hangId" id="hangAll" value="" @(ViewBag.HangId == null ? "checked" : "")>
+                                <label class="form-check-label" for="hangAll">
+                                    Tất cả
+                                </label>
+                            </div>
+                            @if (ViewBag.HangSanXuats != null)
+                            {
+                                foreach (var hang in ViewBag.HangSanXuats)
+                                {
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input filter-check" type="radio" name="hangId" id="hang_@hang.MaHang" 
+                                               value="@hang.MaHang" @(ViewBag.HangId != null && ViewBag.HangId == hang.MaHang ? "checked" : "")>
+                                        <label class="form-check-label" for="hang_@hang.MaHang">
+                                            @hang.TenHang
+                                        </label>
+                                    </div>
+                                }
+                            }
+                        </div>
+
+                        <div class="mb-4">
+                            <h6 class="fw-bold mb-3">Tìm kiếm</h6>
+                            <div class="input-group">
+                                <input type="text" name="searchString" id="searchString" class="form-control" 
+                                       placeholder="Tìm kiếm..." value="@ViewBag.SearchString">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="button" id="resetFilters" class="btn btn-outline-secondary">
+                                <i class="fas fa-undo me-2"></i>Xóa bộ lọc
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product List -->
+        <div class="col-lg-9">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h3 mb-0">Danh Sách Phụ Kiện</h1>
+                <div class="d-flex align-items-center">
+                    <label for="sort" class="me-2 mb-0">Sắp xếp:</label>
+                    <select id="sort" class="form-select form-select-sm" style="width: auto;">
+                        <option value="default">Mặc định</option>
+                        <option value="price-asc">Giá: Thấp đến cao</option>
+                        <option value="price-desc">Giá: Cao đến thấp</option>
+                        <option value="name-asc">Tên: A-Z</option>
+                        <option value="name-desc">Tên: Z-A</option>
+                    </select>
+                </div>
+            </div>
+
+            @if (Model != null && Model.Any())
+            {
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 product-container">
+                    @foreach (var product in Model)
+                    {
+                        <div class="col fade-in" data-price="@product.Gia" data-name="@product.TenPhuKien">
+                            <div class="card h-100 product-card">
+                                <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="product-link">
+                                    <img src="@(string.IsNullOrEmpty(product.HinhAnh) ? "/img/no-image.jpg" : product.HinhAnh)" 
+                                         class="card-img-top product-img" alt="@product.TenPhuKien" />
+                                </a>
+                                <div class="card-body d-flex flex-column">
+                                    <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="text-decoration-none text-dark">
+                                        <h5 class="card-title product-title">@product.TenPhuKien</h5>
+                                    </a>
+                                    <div class="mt-auto">
+                                        <div class="d-flex justify-content-between align-items-center mb-2">
+                                            <span class="product-price">@product.Gia.ToString("N0") đ</span>
+                                            @if (product.SoLuong <= 0)
+                                            {
+                                                <span class="badge bg-danger">Hết hàng</span>
+                                            }
+                                            else if (product.SoLuong <= 5)
+                                            {
+                                                <span class="badge bg-warning text-dark">Còn @product.SoLuong</span>
+                                            }
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            @if (product.SoLuong > 0)
+                                            {
+                                                <form asp-controller="Cart" asp-action="ThemVaoGioHang" method="post">
+                                                    <input type="hidden" name="maPhuKien" value="@product.MaPhuKien" />
+                                                    <input type="hidden" name="soLuong" value="1" />
+                                                    <button type="submit" class="btn btn-primary w-100">
+                                                        <i class="fas fa-cart-plus me-2"></i>Thêm vào giỏ
+                                                    </button>
+                                                </form>
+                                                <a href="@Url.Action("MuaNgay", "Order", new { id = product.MaPhuKien })" class="btn btn-outline-danger">
+                                                    <i class="fas fa-bolt me-2"></i>Mua ngay
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <button class="btn btn-secondary w-100" disabled>
+                                                    <i class="fas fa-times-circle me-2"></i>Hết hàng
+                                                </button>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <!-- Pagination -->
+                @if (ViewBag.TotalPages != null && ViewBag.TotalPages > 1)
+                {
+                    <nav class="mt-4">
+                        <ul class="pagination justify-content-center">
+                            @if (ViewBag.CurrentPage > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("DanhSach", new { page = ViewBag.CurrentPage - 1, loaiId = ViewBag.LoaiId, hangId = ViewBag.HangId, searchString = ViewBag.SearchString })">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                            {
+                                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("DanhSach", new { page = i, loaiId = ViewBag.LoaiId, hangId = ViewBag.HangId, searchString = ViewBag.SearchString })">@i</a>
+                                </li>
+                            }
+
+                            @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("DanhSach", new { page = ViewBag.CurrentPage + 1, loaiId = ViewBag.LoaiId, hangId = ViewBag.HangId, searchString = ViewBag.SearchString })">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                }
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle me-2"></i>Không tìm thấy sản phẩm nào.
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Xử lý khi thay đổi bộ lọc
+            $('.filter-check').change(function() {
+                $('#filterForm').submit();
+            });
+            
+            // Xử lý nút reset bộ lọc
+            $('#resetFilters').click(function() {
+                $('input[name="loaiId"][value=""]').prop('checked', true);
+                $('input[name="hangId"][value=""]').prop('checked', true);
+                $('#searchString').val('');
+                $('#filterForm').submit();
+            });
+            
+            // Xử lý sắp xếp sản phẩm
+            $('#sort').change(function() {
+                var sortValue = $(this).val();
+                var $products = $('.product-container .col');
+                
+                if (sortValue === 'price-asc') {
+                    $products.sort(function(a, b) {
+                        return $(a).data('price') - $(b).data('price');
+                    });
+                } else if (sortValue === 'price-desc') {
+                    $products.sort(function(a, b) {
+                        return $(b).data('price') - $(a).data('price');
+                    });
+                } else if (sortValue === 'name-asc') {
+                    $products.sort(function(a, b) {
+                        return $(a).data('name').localeCompare($(b).data('name'));
+                    });
+                } else if (sortValue === 'name-desc') {
+                    $products.sort(function(a, b) {
+                        return $(b).data('name').localeCompare($(a).data('name'));
+                    });
+                }
+                
+                $('.product-container').append($products);
+            });
+        });
+    </script>
+}

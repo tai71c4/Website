@@ -1,0 +1,186 @@
+@model List<WebsiteBanPhuKien.Models.ViewModels.GioHangViewModel>
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container py-4">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Giỏ hàng</li>
+        </ol>
+    </nav>
+
+    <h1 class="h3 mb-4">Giỏ hàng của bạn</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Sản phẩm</th>
+                                        <th class="text-center">Đơn giá</th>
+                                        <th class="text-center">Số lượng</th>
+                                        <th class="text-end">Thành tiền</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" 
+                                                         alt="@item.TenPhuKien" class="img-thumbnail me-3" style="width: 80px; height: 80px; object-fit: contain;">
+                                                    <div>
+                                                        <a href="@Url.Action("ChiTiet", "Product", new { id = item.MaPhuKien })" class="text-decoration-none">
+                                                            <h6 class="mb-0">@item.TenPhuKien</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center align-middle">@item.Gia.ToString("N0") đ</td>
+                                            <td class="text-center align-middle" style="width: 150px;">
+                                                <form asp-action="CapNhatGioHang" method="post" class="d-flex align-items-center justify-content-center">
+                                                    <input type="hidden" name="maPhuKien" value="@item.MaPhuKien">
+                                                    <div class="quantity-selector">
+                                                        <button type="button" class="decrease-btn">
+                                                            <i class="fas fa-minus"></i>
+                                                        </button>
+                                                        <input type="number" name="soLuong" value="@item.SoLuong" min="1" class="quantity-input">
+                                                        <button type="button" class="increase-btn">
+                                                            <i class="fas fa-plus"></i>
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </td>
+                                            <td class="text-end align-middle fw-bold">@item.ThanhTien.ToString("N0") đ</td>
+                                            <td class="text-center align-middle">
+                                                <form asp-action="XoaKhoiGioHang" method="post">
+                                                    <input type="hidden" name="maPhuKien" value="@item.MaPhuKien">
+                                                    <button type="submit" class="btn btn-sm btn-outline-danger" data-bs-toggle="tooltip" title="Xóa">
+                                                        <i class="fas fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mb-4">
+                    <a href="@Url.Action("DanhSach", "Product")" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-2"></i>Tiếp tục mua sắm
+                    </a>
+                    <button id="clearCart" class="btn btn-outline-danger">
+                        <i class="fas fa-trash me-2"></i>Xóa giỏ hàng
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Tổng giỏ hàng</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Tổng tiền hàng:</span>
+                            <span>@Model.Sum(i => i.ThanhTien).ToString("N0") đ</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Phí vận chuyển:</span>
+                            <span>0 đ</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between fw-bold">
+                            <span>Tổng thanh toán:</span>
+                            <span class="text-danger fs-5">@Model.Sum(i => i.ThanhTien).ToString("N0") đ</span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <a href="@Url.Action("ThanhToan", "Order")" class="btn btn-danger btn-lg">
+                                <i class="fas fa-check-circle me-2"></i>Tiến hành thanh toán
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Phương thức thanh toán</h5>
+                        <div class="d-flex flex-wrap gap-2 mt-3">
+                            <img src="/img/momo-logo.png" alt="MoMo" height="30">
+                            <img src="/img/zalopay-logo.png" alt="ZaloPay" height="30">
+                            <img src="/img/visa.png" alt="Visa" height="30">
+                            <img src="/img/mastercard.png" alt="MasterCard" height="30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="text-center py-5">
+            <i class="fas fa-shopping-cart fa-4x text-muted mb-3"></i>
+            <h4>Giỏ hàng của bạn đang trống</h4>
+            <p class="text-muted">Hãy thêm sản phẩm vào giỏ hàng để tiến hành mua sắm.</p>
+            <a href="@Url.Action("DanhSach", "Product")" class="btn btn-primary mt-3">
+                <i class="fas fa-shopping-bag me-2"></i>Tiếp tục mua sắm
+            </a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Xử lý nút tăng/giảm số lượng
+            $('.increase-btn').click(function() {
+                var input = $(this).closest('.quantity-selector').find('.quantity-input');
+                var currentValue = parseInt(input.val());
+                input.val(currentValue + 1);
+                $(this).closest('form').submit();
+            });
+            
+            $('.decrease-btn').click(function() {
+                var input = $(this).closest('.quantity-selector').find('.quantity-input');
+                var currentValue = parseInt(input.val());
+                if (currentValue > 1) {
+                    input.val(currentValue - 1);
+                    $(this).closest('form').submit();
+                }
+            });
+            
+            // Xử lý khi người dùng thay đổi số lượng trực tiếp
+            $('.quantity-input').change(function() {
+                $(this).closest('form').submit();
+            });
+            
+            // Xử lý nút xóa giỏ hàng
+            $('#clearCart').click(function() {
+                if (confirm('Bạn có chắc chắn muốn xóa tất cả sản phẩm trong giỏ hàng?')) {
+                    // Thực hiện xóa giỏ hàng
+                    window.location.href = '@Url.Action("XoaGioHang", "Cart")';
+                }
+            });
+            
+            // Khởi tạo tooltips
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            });
+        });
+    </script>
+}

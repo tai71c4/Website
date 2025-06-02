@@ -1,0 +1,22 @@
+@model List<WebsiteBanPhuKien.Models.PhuKien>
+@{
+    ViewData["Title"] = "Sản phẩm theo loại - " + ViewBag.TenLoai;
+}
+
+<h1>Sản phẩm theo loại: @ViewBag.TenLoai</h1>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@product.HinhAnh" class="card-img-top" alt="@product.TenPhuKien" style="height: 200px; object-fit: cover;" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.TenPhuKien</h5>
+                    <p class="card-text">@product.Gia.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</p>
+                    <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LUXURY ACCESSORIES</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Toast Notifications -->
+    <div class="toast-container">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    <strong class="me-auto">Thông báo</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    @TempData["SuccessMessage"]
+                </div>
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="fas fa-exclamation-circle text-danger me-2"></i>
+                    <strong class="me-auto">Lỗi</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    @TempData["ErrorMessage"]
+                </div>
+            </div>
+        }
+    </div>
+
+    <header>
+        <partial name="_Header" />
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Shop Phụ Kiện</h5>
+                    <p>Chuyên cung cấp các loại phụ kiện điện thoại, máy tính chính hãng với giá tốt nhất thị trường.</p>
+                    <div class="mt-3">
+                        <a href="#" class="me-3 text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-3 text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="me-3 text-white"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5>Thông tin</h5>
+                    <ul>
+                        <li><a href="#" class="text-white">Về chúng tôi</a></li>
+                        <li><a href="#" class="text-white">Chính sách bảo mật</a></li>
+                        <li><a href="#" class="text-white">Điều khoản sử dụng</a></li>
+                        <li><a href="#" class="text-white">Chính sách đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5>Tài khoản</h5>
+                    <ul>
+                        <li><a href="#" class="text-white">Đăng nhập</a></li>
+                        <li><a href="#" class="text-white">Đăng ký</a></li>
+                        <li><a href="#" class="text-white">Quên mật khẩu</a></li>
+                        <li><a href="#" class="text-white">Lịch sử đơn hàng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liên hệ</h5>
+                    <p><i class="fas fa-map-marker-alt me-2 text-white"></i> 123 Đường ABC, Quận XYZ, TP.HCM</p>
+                    <p><i class="fas fa-phone-alt me-2 text-white"></i> 0123 456 789</p>
+                    <p><i class="fas fa-envelope me-2 text-white"></i> info@shopphukiem.com</p>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4" style="border-color: rgba(255,255,255,0.3);">
+            <div class="text-center">
+                <p class="mb-0 text-white">&copy; @DateTime.Now.Year - Shop Phụ Kiện - Tất cả quyền được bảo lưu</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    <script>
+        // Auto-hide toasts after 5 seconds
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('.toast').toast('hide');
+            }, 5000);
+            
+            // Initialize all tooltips
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            });
+        });
+    </script>
+    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

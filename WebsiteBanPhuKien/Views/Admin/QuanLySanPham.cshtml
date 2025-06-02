@@ -1,0 +1,367 @@
+@model IEnumerable<WebsiteBanPhuKien.Models.PhuKien>
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Quản lý sản phẩm</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center">
+            <h6 class="m-0 font-weight-bold text-primary">Danh sách sản phẩm</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#themSanPhamModal">
+                <i class="fas fa-plus me-2"></i>Thêm sản phẩm
+            </button>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã</th>
+                            <th>Hình ảnh</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Loại</th>
+                            <th>Hãng</th>
+                            <th>Số lượng</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.MaPhuKien</td>
+                                    <td>
+                                        <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" 
+                                             alt="@item.TenPhuKien" style="width: 50px; height: 50px; object-fit: cover;" />
+                                    </td>
+                                    <td>@item.TenPhuKien</td>
+                                    <td>@item.Gia.ToString("N0") đ</td>
+                                    <td>@(item.LoaiPhuKien?.TenLoai ?? "Không có")</td>
+                                    <td>@(item.HangSanXuat?.TenHang ?? "Không có")</td>
+                                    <td>@item.SoLuong</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-info edit-btn" data-id="@item.MaPhuKien">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger delete-btn" data-id="@item.MaPhuKien" 
+                                                data-name="@item.TenPhuKien">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Thêm sản phẩm -->
+<div class="modal fade" id="themSanPhamModal" tabindex="-1" aria-labelledby="themSanPhamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form asp-action="ThemSanPham" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="themSanPhamModalLabel">Thêm sản phẩm mới</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="TenPhuKien" class="form-label">Tên sản phẩm</label>
+                            <input type="text" class="form-control" id="TenPhuKien" name="TenPhuKien" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="Gia" class="form-label">Giá (VNĐ)</label>
+                            <input type="number" class="form-control" id="Gia" name="Gia" min="0" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="MaLoai" class="form-label">Loại sản phẩm</label>
+                            <select class="form-select" id="MaLoai" name="MaLoai" required>
+                                <option value="">-- Chọn loại --</option>
+                                @if (ViewBag.LoaiPhuKiens != null)
+                                {
+                                    foreach (var loai in ViewBag.LoaiPhuKiens)
+                                    {
+                                        <option value="@loai.MaLoai">@loai.TenLoai</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="MaHang" class="form-label">Hãng sản xuất</label>
+                            <select class="form-select" id="MaHang" name="MaHang" required>
+                                <option value="">-- Chọn hãng --</option>
+                                @if (ViewBag.HangSanXuats != null)
+                                {
+                                    foreach (var hang in ViewBag.HangSanXuats)
+                                    {
+                                        <option value="@hang.MaHang">@hang.TenHang</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="SoLuong" class="form-label">Số lượng</label>
+                            <input type="number" class="form-control" id="SoLuong" name="SoLuong" min="0" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="ImageFile" class="form-label">Hình ảnh</label>
+                            <input type="file" class="form-control" id="ImageFile" name="ImageFile" accept="image/*">
+                            <input type="hidden" id="HinhAnh" name="HinhAnh">
+                            <div id="imagePreview" class="mt-2"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="MoTa" class="form-label">Mô tả</label>
+                        <textarea class="form-control" id="MoTa" name="MoTa" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sửa sản phẩm -->
+<div class="modal fade" id="suaSanPhamModal" tabindex="-1" aria-labelledby="suaSanPhamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form asp-action="SuaSanPham" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="suaSanPhamModalLabel">Sửa sản phẩm</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="editMaPhuKien" name="MaPhuKien">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="editTenPhuKien" class="form-label">Tên sản phẩm</label>
+                            <input type="text" class="form-control" id="editTenPhuKien" name="TenPhuKien" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="editGia" class="form-label">Giá (VNĐ)</label>
+                            <input type="number" class="form-control" id="editGia" name="Gia" min="0" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="editMaLoai" class="form-label">Loại sản phẩm</label>
+                            <select class="form-select" id="editMaLoai" name="MaLoai" required>
+                                <option value="">-- Chọn loại --</option>
+                                @if (ViewBag.LoaiPhuKiens != null)
+                                {
+                                    foreach (var loai in ViewBag.LoaiPhuKiens)
+                                    {
+                                        <option value="@loai.MaLoai">@loai.TenLoai</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="editMaHang" class="form-label">Hãng sản xuất</label>
+                            <select class="form-select" id="editMaHang" name="MaHang" required>
+                                <option value="">-- Chọn hãng --</option>
+                                @if (ViewBag.HangSanXuats != null)
+                                {
+                                    foreach (var hang in ViewBag.HangSanXuats)
+                                    {
+                                        <option value="@hang.MaHang">@hang.TenHang</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="editSoLuong" class="form-label">Số lượng</label>
+                            <input type="number" class="form-control" id="editSoLuong" name="SoLuong" min="0" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="editImageFile" class="form-label">Hình ảnh</label>
+                            <input type="file" class="form-control" id="editImageFile" name="ImageFile" accept="image/*">
+                            <input type="hidden" id="editHinhAnh" name="HinhAnh">
+                            <div id="editImagePreview" class="mt-2"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editMoTa" class="form-label">Mô tả</label>
+                        <textarea class="form-control" id="editMoTa" name="MoTa" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Xóa sản phẩm -->
+<div class="modal fade" id="xoaSanPhamModal" tabindex="-1" aria-labelledby="xoaSanPhamModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="XoaSanPham" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="xoaSanPhamModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="deleteMaPhuKien" name="id">
+                    <p>Bạn có chắc chắn muốn xóa sản phẩm <span id="deleteTenPhuKien" class="fw-bold"></span>?</p>
+                    <p class="text-danger">Hành động này không thể hoàn tác.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Xử lý tải lên hình ảnh cho form thêm mới
+            $('#ImageFile').change(function() {
+                var file = this.files[0];
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        $('#imagePreview').html('<img src="' + e.target.result + '" class="img-thumbnail" style="height: 100px;">');
+                    }
+                    reader.readAsDataURL(file);
+                    
+                    var formData = new FormData();
+                    formData.append('file', file);
+                    
+                    $.ajax({
+                        url: '/Upload/UploadImage',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        success: function(result) {
+                            if (result.success) {
+                                $('#HinhAnh').val(result.filePath);
+                            } else {
+                                alert('Lỗi: ' + result.message);
+                            }
+                        },
+                        error: function() {
+                            alert('Có lỗi xảy ra khi tải lên hình ảnh.');
+                        }
+                    });
+                }
+            });
+            
+            // Xử lý tải lên hình ảnh cho form sửa
+            $('#editImageFile').change(function() {
+                var file = this.files[0];
+                if (file) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        $('#editImagePreview').html('<img src="' + e.target.result + '" class="img-thumbnail" style="height: 100px;">');
+                    }
+                    reader.readAsDataURL(file);
+                    
+                    var formData = new FormData();
+                    formData.append('file', file);
+                    
+                    $.ajax({
+                        url: '/Upload/UploadImage',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        success: function(result) {
+                            if (result.success) {
+                                $('#editHinhAnh').val(result.filePath);
+                            } else {
+                                alert('Lỗi: ' + result.message);
+                            }
+                        },
+                        error: function() {
+                            alert('Có lỗi xảy ra khi tải lên hình ảnh.');
+                        }
+                    });
+                }
+            });
+            
+            // Xử lý nút sửa
+            $('.edit-btn').click(function() {
+                var id = $(this).data('id');
+                
+                // Gọi API để lấy thông tin sản phẩm
+                $.ajax({
+                    url: '/Admin/GetSanPham?id=' + id,
+                    type: 'GET',
+                    success: function(data) {
+                        $('#editMaPhuKien').val(data.maPhuKien);
+                        $('#editTenPhuKien').val(data.tenPhuKien);
+                        $('#editGia').val(data.gia);
+                        $('#editMaLoai').val(data.maLoai);
+                        $('#editMaHang').val(data.maHang);
+                        $('#editSoLuong').val(data.soLuong);
+                        $('#editHinhAnh').val(data.hinhAnh);
+                        $('#editMoTa').val(data.moTa);
+                        
+                        // Hiển thị hình ảnh hiện tại
+                        if (data.hinhAnh) {
+                            $('#editImagePreview').html('<img src="' + data.hinhAnh + '" class="img-thumbnail" style="height: 100px;">');
+                        } else {
+                            $('#editImagePreview').empty();
+                        }
+                        
+                        $('#suaSanPhamModal').modal('show');
+                    },
+                    error: function() {
+                        alert('Không thể lấy thông tin sản phẩm');
+                    }
+                });
+            });
+            
+            // Xử lý nút xóa
+            $('.delete-btn').click(function() {
+                var id = $(this).data('id');
+                var name = $(this).data('name');
+                
+                $('#deleteMaPhuKien').val(id);
+                $('#deleteTenPhuKien').text(name);
+                $('#xoaSanPhamModal').modal('show');
+            });
+            
+            // Khởi tạo DataTable
+            $('#dataTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/vi.json'
+                }
+            });
+        });
+    </script>
+}
