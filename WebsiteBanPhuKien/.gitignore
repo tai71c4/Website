@@ -1,0 +1,15 @@
+.vs/
+*.user
+*.suo
+*.sln.docstates
+bin/
+obj/
+Debug/
+Release/
+packages/
+*.nupkg
+*.log
+*.dbmdl
+.idea/
+.DS_Store
+Thumbs.db
